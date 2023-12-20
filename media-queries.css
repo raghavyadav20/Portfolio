@@ -1,0 +1,183 @@
+@media screen and (max-width: 1030px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .header-right img {
+        width: 80%;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+    
+    .examples-area {
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .examples-card {
+        width: 35%;
+        height: 380px;
+        margin-bottom: 20px;
+        margin: 20px;
+    }
+
+    .cta-section {
+        padding-block: 80px;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .primary-button {
+        width: 100%;
+    }
+
+    .header-section {
+        flex-direction: column;
+    }
+
+    .header-left {
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .features-card {
+        min-width: 40%;
+    }
+
+    .big-feature-container, #second-big-feature {
+        flex-direction: column;
+    }
+
+    .big-feature-section {
+        padding-bottom: 3rem;
+    }
+    .feature-img {
+        width: 70%;
+    }
+
+    .feature-desc {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .examples-area {
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .examples-card {
+        width: 30%;
+        height: 250px;
+        margin-bottom: 20px;
+        margin: 20px;
+    }
+    .card-text {
+        bottom: 30px;
+        left: 10px;
+        right: 0px;
+    }
+    .card-text-h2 {
+        bottom: 10px;
+        left: 10px;
+        right: 0px;
+        font-size: 90%;
+    }
+
+    .link-column {
+        align-items: stretch;
+    }
+
+}
+
+@media screen and (max-width: 619px) {
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .header-right img {
+        width: 100%;
+    }
+
+    .logos {
+        gap: 10px;  
+    }
+
+    .logo {
+        height: 40px;
+    } 
+
+    .logo-s {
+        height: 76px;
+    }    
+
+    .big-feature-section {
+        padding-bottom: 2rem;
+    }
+
+    .features-card {
+        min-width: 30%;
+    }
+
+    .feature-desc {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .examples-card {
+        width: 60%;
+        height: 230px;
+    }
+}
